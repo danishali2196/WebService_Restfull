@@ -1,0 +1,13 @@
+package com.nt.test;
+
+import java.net.URL;
+
+public class RestClientTest {
+
+	public static void main(String[] args) {
+		
+		URL url = new URL(spec)
+
+	}
+
+}

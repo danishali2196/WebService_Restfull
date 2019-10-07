@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="RestProj19-SpringIntigration-Springboot"/>
+<aop-project name="RestProj20-SpringIntigration-Swagger-Springboot"/>
+<aop-project name="RestProj-ESeva-MiniProj-SpringBoot-Producer"/>
+</aop-reference-model>

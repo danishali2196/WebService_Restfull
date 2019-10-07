@@ -1,0 +1,12 @@
+package com.nit.eseva.vo;
+
+import lombok.Data;
+
+@Data
+public class EsevaDTO {
+	
+	private int userId;
+	private String name;
+	private String addrs;
+
+}

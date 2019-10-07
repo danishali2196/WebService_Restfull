@@ -1,0 +1,4 @@
+
+SQL> create table eseva(id number(15) primary key,name varchar2(20),addrs varchar2(20),passportid number(16));
+
+SQL> create sequence eseva_seq start with 1000 increment by 1;

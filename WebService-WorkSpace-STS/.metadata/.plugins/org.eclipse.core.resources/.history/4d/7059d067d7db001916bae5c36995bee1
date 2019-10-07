@@ -1,0 +1,13 @@
+package com.nit.eseva.dao;
+
+import com.nit.eseva.bo.EsevaBO;
+
+public class EsevaDaoImpl implements EsevaDao {
+	public static final String INSERT_USER_DATA="INSERT INTO ESEVA VALUES(?,?,?,?)";
+	@Override
+	public int insertData(EsevaBO bo) {
+		
+		return 0;
+	}
+
+}

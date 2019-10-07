@@ -1,0 +1,13 @@
+package com.nit.sbapp;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RestProj19SpringIntigrationSpringbootApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestProj19SpringIntigrationSpringbootApplication.class, args);
+	}
+
+}

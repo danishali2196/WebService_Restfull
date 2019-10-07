@@ -1,0 +1,39 @@
+package com.nt.test;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class RestClientTest {
+
+	public static void main(String[] args) throws Exception{
+		System.out.println("RestClientTest.main()");
+		
+		URL url = new URL("http://localhost:3030/RestProj1-JersesIMPL/rest/wish");
+		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		conn.setRequestMethod("GET");
+		conn.setRequestProperty("accept", "application/xml");
+		InputStream is = conn.getInputStream();
+		BufferedReader br = new BufferedReader(new InputStreamReader(is));
+		
+		String output;
+		
+		int status = conn.getResponseCode();
+	
+		if (status != 200) {
+			throw new RuntimeException("Failed : HTTP Error Code ::"+status);
+		}
+		
+		while((output= br.readLine()) == null) {
+			System.out.println(output);
+		}
+		
+		
+		conn.disconnect();
+		
+		
+		
+	}
+}

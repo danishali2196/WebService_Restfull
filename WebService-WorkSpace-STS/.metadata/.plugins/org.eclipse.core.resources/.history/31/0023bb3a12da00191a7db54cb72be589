@@ -1,0 +1,13 @@
+package com.nit.eseva;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+
+@SpringBootApplication
+public class RestProjESevaMiniProjSpringBootProducerApplication {
+
+	public static void main(String[] args) {
+		SpringApplication.run(RestProjESevaMiniProjSpringBootProducerApplication.class, args);
+	}
+
+}

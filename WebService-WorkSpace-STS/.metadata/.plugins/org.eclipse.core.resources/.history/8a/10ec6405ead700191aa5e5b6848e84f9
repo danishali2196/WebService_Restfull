@@ -1,0 +1,25 @@
+package com.nit.sbapp.resource;
+
+import javax.xml.ws.Response;
+
+import org.springframework.boot.ApplicationArguments;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.nit.sbapp.bind.Book;
+
+@RestController
+public class BookController{
+	
+	@GetMapping(value="/book",produces= {"application/json"})
+	public @ResponseBody Book getBook() {
+		Book b = new Book();
+		b.setBookid(101);
+		b.setBookname("Spring");
+		b.setPrice(450.00);
+		
+		return b;
+	}
+
+}

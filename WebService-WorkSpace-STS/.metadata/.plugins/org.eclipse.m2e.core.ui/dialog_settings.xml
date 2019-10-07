@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<section name="MavenProjectWizardArtifactPage">
+		<list key="groupId">
+		</list>
+		<list key="name">
+		</list>
+		<list key="artifactId">
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+	<section name="org.eclipse.m2e.core.pom.dependencies">
+	</section>
+	<section name="org.eclipse.m2e.core.pom.overview">
+		<list key="ciManagementUrl">
+		</list>
+		<list key="ciManagementSystem">
+		</list>
+		<list key="issueManagementSystem">
+		</list>
+		<list key="issueManagementUrl">
+		</list>
+	</section>
+	<section name="MavenProjectWizardArchetypePage">
+		<item value="All Catalogs" key="catalog"/>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="MavenProjectWizardLocationPage">
+		<list key="location">
+			<item value="D:\WebService-WorkSpace-STS\RestProj15-jersey-MsgBodyReader"/>
+			<item value="D:\WebService-WorkSpace-STS\RestProj11-RestEasy"/>
+			<item value="D:\WebService-WorkSpace-STS\RestProj10-BeanParam-Jersey"/>
+			<item value="D:\WebService-WorkSpace-STS\RestProj8-QueryParam-Jersey"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+	</section>
+	<section name="Maven2ProjectWizardArchifactPage">
+		<list key="package">
+			<item value="nit.RestProj17_jersey_ExceptionMapper"/>
+			<item value="nit.RestProj16_jersey_MsgBodyWriter"/>
+			<item value="nit.RestProj12_RestEasy_MsgBodyReader"/>
+			<item value="nit.RestProj11_RestEasy"/>
+			<item value="nit.ResrProj9_FormParam_Jersey"/>
+			<item value="nit.RestProj5_PathParam_Jersey2ver"/>
+			<item value="nit.RestProj5_Jersy_MediaTypeAnno"/>
+			<item value="nit.RestProj2_Json_Jackson"/>
+		</list>
+		<list key="groupId">
+			<item value="nit"/>
+		</list>
+		<list key="artifactId">
+			<item value="RestProj17-jersey-ExceptionMapper"/>
+			<item value="RestProj16-jersey-MsgBodyWriter"/>
+			<item value="RestProj12-RestEasy-MsgBodyReader"/>
+			<item value="RestProj11-RestEasy"/>
+			<item value="ResrProj9-FormParam-Jersey"/>
+			<item value="RestProj5-PathParam-Jersey2ver"/>
+			<item value="RestProj5-Jersy-MediaTypeAnno"/>
+			<item value="RestProj2-Json-Jackson"/>
+			<item value="RestProj1-JersesIMPL"/>
+		</list>
+		<list key="projectNameTemplate">
+			<item value="[artifactId]"/>
+			<item value="[artifactId]-TRUNK"/>
+			<item value="[artifactId]-[version]"/>
+			<item value="[groupId].[artifactId]"/>
+			<item value="[groupId].[artifactId]-[version]"/>
+			<item value="[name]"/>
+		</list>
+		<list key="version">
+			<item value="0.0.1-SNAPSHOT"/>
+		</list>
+	</section>
+</section>

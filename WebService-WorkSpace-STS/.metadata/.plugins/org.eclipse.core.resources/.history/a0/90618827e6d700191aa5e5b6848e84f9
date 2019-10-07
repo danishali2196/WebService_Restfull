@@ -1,0 +1,5 @@
+package com.nit.sbapp.bind;
+
+public class Book {
+
+}

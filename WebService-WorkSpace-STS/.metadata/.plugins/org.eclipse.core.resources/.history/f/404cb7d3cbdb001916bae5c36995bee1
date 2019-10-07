@@ -1,0 +1,5 @@
+package com.nit.eseva.dao;
+
+public interface EsevaDao {
+
+}

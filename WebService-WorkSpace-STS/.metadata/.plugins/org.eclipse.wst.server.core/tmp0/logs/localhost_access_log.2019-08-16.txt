@@ -1,0 +1,3 @@
+127.0.0.1 - - [16/Aug/2019:14:40:52 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:40:57 +0530] "GET /Proj4-BookApp-soap-contextLastApproch-ObjectBased/ HTTP/1.1" 404 1128
+0:0:0:0:0:0:0:1 - - [16/Aug/2019:14:41:08 +0530] "GET /Proj4-BookApp-soap-contextLastApproch-ObjectBased/book HTTP/1.1" 200 876

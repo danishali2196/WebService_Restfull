@@ -1,0 +1,6 @@
+127.0.0.1 - - [18/Aug/2019:00:06:31 +0530] "GET / HTTP/1.1" 404 1074
+0:0:0:0:0:0:0:1 - - [18/Aug/2019:00:06:38 +0530] "GET /Proj4-BookApp-soap-contextLastApproch-ObjectBased/ HTTP/1.1" 404 1128
+127.0.0.1 - - [18/Aug/2019:00:06:55 +0530] "GET /Proj4-BookApp-soap-contextLastApproch-ObjectBased/book?wsdl HTTP/1.1" 200 2052
+127.0.0.1 - - [18/Aug/2019:00:06:56 +0530] "POST /Proj4-BookApp-soap-contextLastApproch-ObjectBased/book HTTP/1.1" 200 347
+127.0.0.1 - - [18/Aug/2019:00:07:15 +0530] "GET /Proj4-BookApp-soap-contextLastApproch-ObjectBased/book?wsdl HTTP/1.1" 200 2052
+127.0.0.1 - - [18/Aug/2019:00:07:15 +0530] "POST /Proj4-BookApp-soap-contextLastApproch-ObjectBased/book HTTP/1.1" 200 347

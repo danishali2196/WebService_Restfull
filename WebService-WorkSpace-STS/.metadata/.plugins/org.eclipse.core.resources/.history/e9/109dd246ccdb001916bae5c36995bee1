@@ -1,0 +1,13 @@
+package com.nit.eseva.dao;
+
+import com.nit.eseva.bo.EsevaBO;
+
+public class EsevaDaoImpl implements EsevaDao {
+
+	@Override
+	public int insertData(EsevaBO bo) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

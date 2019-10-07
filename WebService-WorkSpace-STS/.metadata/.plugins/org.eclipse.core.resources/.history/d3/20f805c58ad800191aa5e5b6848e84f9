@@ -1,0 +1,5 @@
+package com.nit.sbapp.swagger;
+
+public class Swagger2UIConfiguration {
+
+}

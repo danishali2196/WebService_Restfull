@@ -1,0 +1,20 @@
+package com.nt.test;
+
+import java.io.IOException;
+import java.io.InputStream;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class RestClientTest {
+
+	public static void main(String[] args) throws Exception{
+		
+		URL url = new URL("http://localhost:3030/RestProj1-JersesIMPL/rest/wish");
+
+		HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+		
+		InputStream is = conn.
+		
+		
+	}
+}
